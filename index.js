@@ -7,7 +7,7 @@ const main = async () => {
     {
       type: 'input',
       name: 'name',
-      message: "What's your name friend"
+      message: "What is your name?"
     },
     {
       type: 'input',
@@ -42,7 +42,7 @@ const main = async () => {
     {
       type: 'input',
       name: 'notes',
-      message: 'Any special notes for me?'
+      message: 'Any special notes?'
     }
   ]);
 
@@ -56,7 +56,7 @@ const main = async () => {
   console.log(encrypted);
   console.log('------ copy above ------');
   console.log(
-    '😍 \x20 Copy the encrypted address to stickers/<your-github-username>.txt and send a pull request'
+    '✅ \x20 Copy the encrypted address to stickers/<your-github-username>.txt and send a pull request'
   );
 };
 
